@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Moody</string>
+
+    <string name="button_text">Select Color</string>
+
+    <string name="button_text_1">Select First Color</string>
+    <string name="button_text_2">Select Second Color</string>
+
+    <string name="okay">Set Lamp</string>
+
+    <string name="randomize">Randomize</string>
+</resources>

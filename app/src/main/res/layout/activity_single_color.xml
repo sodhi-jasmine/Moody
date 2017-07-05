@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/color_button"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/button_text"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        fancy:fb_textColor="#FFF"
+        fancy:fb_defaultColor="@color/colorPrimary"
+        fancy:fb_radius="50dp"/>
+
+    <Button
+    android:layout_width="20dp"
+    android:layout_height="50dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/color_indicator_1"/>
+
+    <Button
+    android:layout_width="20dp"
+    android:layout_height="50dp"
+    android:id="@+id/color_indicator_2"
+    android:layout_alignBaseline="@+id/color_indicator_1"
+    android:layout_alignBottom="@+id/color_indicator_1"
+    android:layout_toStartOf="@+id/color_indicator_1"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"/>
+
+</RelativeLayout>
